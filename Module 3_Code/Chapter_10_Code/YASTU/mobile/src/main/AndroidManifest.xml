@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.plattysoft.yass" >
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:isGame="true"
+        android:banner="@drawable/banner_small"
+        android:theme="@style/AppTheme" >
+
+        <uses-feature android:name="android.software.leanback"
+            android:required="false" />
+
+        <uses-feature android:name="android.hardware.touchscreen"
+            android:required="false" />
+
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:screenOrientation="sensorLandscape"
+            android:name=".YassActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".YassTvActivity"
+            android:label="@string/app_name"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

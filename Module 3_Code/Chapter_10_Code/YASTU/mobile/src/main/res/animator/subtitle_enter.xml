@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:startOffset="@integer/subtitle_start_offset"
+        android:duration="@integer/subtitle_duration"/>
+</set>

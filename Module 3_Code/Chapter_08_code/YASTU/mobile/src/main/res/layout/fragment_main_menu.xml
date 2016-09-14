@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seamless_space_0"/>
+
+    <ImageView
+        android:id="@+id/ship_animated"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ship_animated"
+        android:layout_below="@+id/btn_start"
+        />
+
+    <TextView
+        android:textColor="@color/text_color"
+        android:id="@+id/main_title"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/game_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/main_subtitle"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/main_title"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/game_subtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_square_bg"
+        android:text="@string/start" />
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_sound"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:src="@drawable/sounds_on_no_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_music"
+        android:layout_alignBottom="@+id/btn_sound"
+        android:src="@drawable/music_on_no_bg"
+        android:layout_toLeftOf="@+id/btn_sound"
+        />
+</RelativeLayout>

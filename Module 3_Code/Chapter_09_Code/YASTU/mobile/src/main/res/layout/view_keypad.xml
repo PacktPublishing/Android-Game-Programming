@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:padding="@dimen/keypad_size"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/keypad_up"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/keypad_left"
+        android:layout_width="@dimen/keypad_size"
+        android:layout_height="@dimen/keypad_size" />
+
+    <Button
+        android:id="@+id/keypad_down"
+        android:layout_below="@+id/keypad_left"
+        android:layout_toRightOf="@+id/keypad_left"
+        android:layout_width="@dimen/keypad_size"
+        android:layout_height="@dimen/keypad_size" />
+
+    <Button
+        android:id="@+id/keypad_left"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/keypad_up"
+        android:layout_width="@dimen/keypad_size"
+        android:layout_height="@dimen/keypad_size" />
+
+    <Button
+        android:id="@+id/keypad_right"
+        android:layout_toRightOf="@+id/keypad_up"
+        android:layout_below="@+id/keypad_up"
+        android:layout_width="@dimen/keypad_size"
+        android:layout_height="@dimen/keypad_size" />
+
+    <Button
+        android:id="@+id/keypad_fire"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/keypad_left"
+        android:layout_width="@dimen/keypad_size"
+        android:layout_height="@dimen/keypad_size" />
+</RelativeLayout>

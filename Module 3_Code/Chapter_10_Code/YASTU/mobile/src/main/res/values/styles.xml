@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="iconButton" >
+        <item name="android:background">@drawable/icon_button_bg</item>
+        <item name="android:layout_width">@dimen/btn_round_size</item>
+        <item name="android:layout_height">@dimen/btn_round_size</item>
+        <item name="android:padding">@dimen/round_button_padding</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_selected">#39a29c</color>
+    <color name="btn_normal">#FFFFFF</color>
+    <color name="btn_pressed">#fdd33f</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="btn_border">#AAAAAA</color>
+    <color name="background">#000000</color>
+
+    <color name="game_view_frame">#ff0000</color>
+    <color name="dialog_backgound">#000000</color>
+</resources>

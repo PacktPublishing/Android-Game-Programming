@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YASS</string>
+    <string name="title_activity_main">YASS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="pause_dialog_title">Pause</string>
+    <string name="pause_dialog_message">Game is paused, take your time.</string>
+    <string name="game_title">YASS - Yet Another Space Shooter</string>
+    <string name="gampad_help_title">Gamepad controls</string>
+    <string name="gamepad_help_message">Use the cursors/joystick to move the spaceship. Use A to fire.</string>
+    <string name="sound_on">Sound On</string>
+    <string name="music_on">Music On</string>
+    <string name="sound_off">Sound Off</string>
+    <string name="music_off">Music Off</string>
+</resources>

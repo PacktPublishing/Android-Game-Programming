@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <objectAnimator
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="translationX"
+        android:valueTo="0"
+        android:startOffset="@integer/tittle_start_offset"
+        android:duration="@integer/tittle_duration" />
+</set>

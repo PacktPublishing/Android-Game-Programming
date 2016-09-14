@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid
+        android:color="@android:color/transparent" />
+    <padding android:bottom="@dimen/game_frame_width"
+        android:left="@dimen/game_frame_width"
+        android:right="@dimen/game_frame_width"
+        android:top="@dimen/game_frame_width"/>
+    <stroke android:color="@color/game_view_frame"
+        android:width="@dimen/game_frame_width" />
+</shape>

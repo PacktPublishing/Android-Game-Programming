@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">890772281734</string>
+
+    <string name="achievement_asteroid_killer">CgkIhrOpsfYZEAIQBA</string>
+    <string name="achievement_big_score">CgkIhrOpsfYZEAIQBQ</string>
+    <string name="achievement_survivor">CgkIhrOpsfYZEAIQBg</string>
+    <string name="achievement_target_aquired">CgkIhrOpsfYZEAIQBw</string>
+    <string name="achievement_target_lost">CgkIhrOpsfYZEAIQCA</string>
+
+    <string name="leaderboard_high_scores">CgkIhrOpsfYZEAIQCQ</string>
+s
+</resources>

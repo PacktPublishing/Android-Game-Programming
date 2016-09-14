@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_margin">16dp</dimen>
+
+    <dimen name="game_menu_width">200dp</dimen>
+    <dimen name="life_size">60dp</dimen>
+
+    <dimen name="dialog_width">600dp</dimen>
+    <dimen name="dialog_height">400dp</dimen>
+</resources>

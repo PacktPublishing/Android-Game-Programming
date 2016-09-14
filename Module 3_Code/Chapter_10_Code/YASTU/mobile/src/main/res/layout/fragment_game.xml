@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.plattysoft.yass.counter.GameFragment">
+
+    <RelativeLayout
+        android:layout_width="@dimen/game_menu_width"
+        android:layout_height="match_parent">
+        <!-- Lifes and score here -->
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/menu_margin"
+            android:id="@+id/score_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/text_color"
+            android:text="@string/score" />
+
+        <TextView
+            android:id="@+id/score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/menu_margin"
+            android:layout_below="@+id/score_title"
+            android:layout_alignLeft="@+id/score_title"
+            android:textColor="@color/text_color"
+            android:text="000000" />
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/lives_title"
+            android:layout_below="@+id/score_value"
+            android:layout_alignLeft="@+id/score_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:text="@string/lives" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/lives_value"
+            android:layout_marginTop="@dimen/menu_margin"
+            android:layout_below="@+id/lives_title"
+            android:layout_alignLeft="@+id/lives_title"
+            android:layout_width="@dimen/game_menu_width"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:background="@drawable/game_view_bg"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/game_menu_width"
+        android:layout_marginRight="@dimen/game_menu_width"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.plattysoft.yass.engine.SurfaceGameView
+            android:id="@+id/gameView"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <include layout="@layout/view_vjoystick"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <ImageView
+        style="@style/iconButton"
+        android:focusable="false"
+        android:layout_gravity="top|right"
+        android:id="@+id/btn_play_pause"
+        android:layout_marginTop="@dimen/menu_margin"
+        android:layout_marginRight="@dimen/menu_margin"
+        android:src="@drawable/pause" />
+
+</FrameLayout>

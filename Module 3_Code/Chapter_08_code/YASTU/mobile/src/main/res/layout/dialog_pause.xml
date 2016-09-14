@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/pause"/>
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_resume"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:src="@drawable/resume"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_exit"
+        android:layout_alignBottom="@+id/btn_resume"
+        android:src="@drawable/exit"
+        android:layout_toRightOf="@+id/btn_resume"
+        />
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_sound"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:src="@drawable/sounds_on_no_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        style="@style/iconButton"
+        android:id="@+id/btn_music"
+        android:layout_alignBottom="@+id/btn_sound"
+        android:src="@drawable/music_on_no_bg"
+        android:layout_toLeftOf="@+id/btn_sound"
+        />
+
+</RelativeLayout>
