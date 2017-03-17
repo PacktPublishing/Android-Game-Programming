@@ -1,8 +1,8 @@
-#Android-Game-Programming-A-Developer's-Guide
+# Android-Game-Programming-A-Developer's-Guide
 
 By Packt
 
-###What You Will Learn:
+### What You Will Learn:
 
 * Set up an efficient, professional game development environment in Android Studio
 * Explore object-oriented programming (OOP) and design scalable, reliable, and well-written Java games or apps on almost any Android device
@@ -15,7 +15,7 @@ By Packt
 * Integrate Google Play Services to provide achievements and leaderboards to the players
 
 
-###Related Products
+### Related Products
 
 * [The Android Game Developer's Handbook](https://www.packtpub.com/application-development/android-game-developers-handbook?utm_source=github&utm_medium=repository&utm_campaign=9781785885860)
 * [Android Native Development Kit Cookbook](https://www.packtpub.com/application-development/android-native-development-kit-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849691505)
